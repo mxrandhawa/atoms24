@@ -1,0 +1,344 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix map: <http://mapping.example.com/> .
+@prefix ex: <http://diim.org/> .
+
+map:map_AleksandrIvchenko_data_000 rml:logicalSource map:source_000 ;
+	rdf:type rr:TriplesMap ;
+	rdfs:label "AleksandrIvchenko_data" ;
+	rr:predicateObjectMap map:pom_000, map:pom_001, map:pom_002, map:pom_003, map:pom_004, map:pom_005, map:pom_006, map:pom_007, map:pom_008, map:pom_009, map:pom_010, map:pom_011, map:pom_012, map:pom_013, map:pom_014, map:pom_015, map:pom_016, map:pom_017, map:pom_018, map:pom_019, map:pom_020, map:pom_021, map:pom_022, map:pom_023, map:pom_024, map:pom_025, map:pom_026, map:pom_027, map:pom_028 ;
+	rr:subjectMap map:s_000 .
+
+map:om_000 rdf:type rr:ObjectMap ;
+	rr:constant ex:Measurement ;
+	rr:termType rr:IRI .
+
+map:om_001 rml:reference "initial_buffer_time" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_002 rml:reference "Rebuffer_count" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_003 rml:reference "average_duration_of_stalling_event" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_004 rml:reference "mean_seqPSNR" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_005 rml:reference "average_Weighted_Bitrate" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_006 rml:reference "st_events_max" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_007 rml:reference "bitrate_pos_changes_count" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_008 rml:reference "bitrate_neg_changes_count" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_009 rml:reference "bitrate_max_pos_change" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_010 rml:reference "bitrate_max_neg_change" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_011 rml:reference "bitrate_mean_pos_change" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_012 rml:reference "bitrate_mean_neg_change" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_013 rml:reference "freq_of_st" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_014 rml:reference "Bitrate_switch_count" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_015 rml:reference "freq_of_sw" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_016 rml:reference "Rebuffer_percentage" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_017 rml:reference "Average_Bitrate_Swithcing_magnitude" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_018 rml:reference "Average_relative_Bitrate_Swithcing_magnitude" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_019 rml:reference "Ratio_on_highest_sequense_quality_layer" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_020 rml:reference "Ratio_on_minimum_sequense_quality_layer" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_021 rml:reference "Ratio_on_sequense_quality_layer_max_2" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_022 rml:reference "width_height" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_023 rml:reference "SI" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_024 rml:reference "TI" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_025 rml:reference "content" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_026 rml:reference "motion" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_027 rml:reference "Constant_bitrate" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:om_028 rml:reference "MOS" ;
+	rdf:type rr:ObjectMap ;
+	rr:termType rr:Literal .
+
+map:pm_000 rdf:type rr:PredicateMap ;
+	rr:constant rdf:type .
+
+map:pm_001 rdf:type rr:PredicateMap ;
+	rr:constant ex:initial_buffer_time .
+
+map:pm_002 rdf:type rr:PredicateMap ;
+	rr:constant ex:Rebuffer_count .
+
+map:pm_003 rdf:type rr:PredicateMap ;
+	rr:constant ex:average_duration_of_stalling_event .
+
+map:pm_004 rdf:type rr:PredicateMap ;
+	rr:constant ex:mean_seqPSNR .
+
+map:pm_005 rdf:type rr:PredicateMap ;
+	rr:constant ex:average_Weighted_Bitrate .
+
+map:pm_006 rdf:type rr:PredicateMap ;
+	rr:constant ex:st_events_max .
+
+map:pm_007 rdf:type rr:PredicateMap ;
+	rr:constant ex:bitrate_pos_changes_count .
+
+map:pm_008 rdf:type rr:PredicateMap ;
+	rr:constant ex:bitrate_neg_changes_count .
+
+map:pm_009 rdf:type rr:PredicateMap ;
+	rr:constant ex:bitrate_max_pos_change .
+
+map:pm_010 rdf:type rr:PredicateMap ;
+	rr:constant ex:bitrate_max_neg_change .
+
+map:pm_011 rdf:type rr:PredicateMap ;
+	rr:constant ex:bitrate_mean_pos_change .
+
+map:pm_012 rdf:type rr:PredicateMap ;
+	rr:constant ex:bitrate_mean_neg_change .
+
+map:pm_013 rdf:type rr:PredicateMap ;
+	rr:constant ex:freq_of_st .
+
+map:pm_014 rdf:type rr:PredicateMap ;
+	rr:constant ex:Bitrate_switch_count .
+
+map:pm_015 rdf:type rr:PredicateMap ;
+	rr:constant ex:freq_of_sw .
+
+map:pm_016 rdf:type rr:PredicateMap ;
+	rr:constant ex:Rebuffer_percentage .
+
+map:pm_017 rdf:type rr:PredicateMap ;
+	rr:constant ex:Average_Bitrate_Swithcing_magnitude .
+
+map:pm_018 rdf:type rr:PredicateMap ;
+	rr:constant ex:Average_relative_Bitrate_Swithcing_magnitude .
+
+map:pm_019 rdf:type rr:PredicateMap ;
+	rr:constant ex:Ratio_on_highest_sequense_quality_layer .
+
+map:pm_020 rdf:type rr:PredicateMap ;
+	rr:constant ex:Ratio_on_minimum_sequense_quality_layer .
+
+map:pm_021 rdf:type rr:PredicateMap ;
+	rr:constant ex:Ratio_on_sequense_quality_layer_max_2 .
+
+map:pm_022 rdf:type rr:PredicateMap ;
+	rr:constant ex:width_height .
+
+map:pm_023 rdf:type rr:PredicateMap ;
+	rr:constant ex:SI .
+
+map:pm_024 rdf:type rr:PredicateMap ;
+	rr:constant ex:TI .
+
+map:pm_025 rdf:type rr:PredicateMap ;
+	rr:constant ex:content .
+
+map:pm_026 rdf:type rr:PredicateMap ;
+	rr:constant ex:motion .
+
+map:pm_027 rdf:type rr:PredicateMap ;
+	rr:constant ex:Constant_bitrate .
+
+map:pm_028 rdf:type rr:PredicateMap ;
+	rr:constant ex:MOS .
+
+map:pom_000 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_000 ;
+	rr:predicateMap map:pm_000 .
+
+map:pom_001 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_001 ;
+	rr:predicateMap map:pm_001 .
+
+map:pom_002 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_002 ;
+	rr:predicateMap map:pm_002 .
+
+map:pom_003 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_003 ;
+	rr:predicateMap map:pm_003 .
+
+map:pom_004 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_004 ;
+	rr:predicateMap map:pm_004 .
+
+map:pom_005 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_005 ;
+	rr:predicateMap map:pm_005 .
+
+map:pom_006 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_006 ;
+	rr:predicateMap map:pm_006 .
+
+map:pom_007 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_007 ;
+	rr:predicateMap map:pm_007 .
+
+map:pom_008 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_008 ;
+	rr:predicateMap map:pm_008 .
+
+map:pom_009 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_009 ;
+	rr:predicateMap map:pm_009 .
+
+map:pom_010 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_010 ;
+	rr:predicateMap map:pm_010 .
+
+map:pom_011 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_011 ;
+	rr:predicateMap map:pm_011 .
+
+map:pom_012 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_012 ;
+	rr:predicateMap map:pm_012 .
+
+map:pom_013 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_013 ;
+	rr:predicateMap map:pm_013 .
+
+map:pom_014 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_014 ;
+	rr:predicateMap map:pm_014 .
+
+map:pom_015 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_015 ;
+	rr:predicateMap map:pm_015 .
+
+map:pom_016 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_016 ;
+	rr:predicateMap map:pm_016 .
+
+map:pom_017 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_017 ;
+	rr:predicateMap map:pm_017 .
+
+map:pom_018 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_018 ;
+	rr:predicateMap map:pm_018 .
+
+map:pom_019 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_019 ;
+	rr:predicateMap map:pm_019 .
+
+map:pom_020 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_020 ;
+	rr:predicateMap map:pm_020 .
+
+map:pom_021 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_021 ;
+	rr:predicateMap map:pm_021 .
+
+map:pom_022 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_022 ;
+	rr:predicateMap map:pm_022 .
+
+map:pom_023 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_023 ;
+	rr:predicateMap map:pm_023 .
+
+map:pom_024 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_024 ;
+	rr:predicateMap map:pm_024 .
+
+map:pom_025 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_025 ;
+	rr:predicateMap map:pm_025 .
+
+map:pom_026 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_026 ;
+	rr:predicateMap map:pm_026 .
+
+map:pom_027 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_027 ;
+	rr:predicateMap map:pm_027 .
+
+map:pom_028 rdf:type rr:PredicateObjectMap ;
+	rr:objectMap map:om_028 ;
+	rr:predicateMap map:pm_028 .
+
+map:rules_000 <http://rdfs.org/ns/void#exampleResource> map:map_AleksandrIvchenko_data_000 ;
+	rdf:type <http://rdfs.org/ns/void#Dataset> .
+
+map:s_000 rdf:type rr:SubjectMap ;
+	rr:template "http://diim.org/{hash}" .
+
+map:source_000 rml:iterator "$.AleksandrIvchenko_data[*]" ;
+	rml:referenceFormulation ql:CSV ;
+	rml:source "source_0.csv" ;
+	rdf:type rml:LogicalSource .
+

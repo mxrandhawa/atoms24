@@ -1,0 +1,39 @@
+prefixes:
+ ex: "http://diim.org/"
+
+mappings:
+  AleksandrIvchenko_data:
+    sources:
+      - ['source_0.csv~csv', '$.AleksandrIvchenko_data[*]']
+    s: http://diim.org/$(hash)
+ 
+    po:
+      - [a, ex:Measurement]	  
+      - [ex:initial_buffer_time, $(initial_buffer_time) ]
+      - [ex:Rebuffer_count, $(Rebuffer_count)]  
+      - [ex:average_duration_of_stalling_event, $(average_duration_of_stalling_event)]  
+      - [ex:mean_seqPSNR, $(mean_seqPSNR)]
+      - [ex:average_Weighted_Bitrate,$(average_Weighted_Bitrate)]
+      - [ex:st_events_max, $(st_events_max)]
+      - [ex:bitrate_pos_changes_count, $(bitrate_pos_changes_count)]
+      - [ex:bitrate_neg_changes_count, $(bitrate_neg_changes_count)]
+      - [ex:bitrate_max_pos_change, $(bitrate_max_pos_change) ]
+      - [ex:bitrate_max_neg_change, $(bitrate_max_neg_change) ]
+      - [ex:bitrate_mean_pos_change, $(bitrate_mean_pos_change) ]
+      - [ex:bitrate_mean_neg_change, $(bitrate_mean_neg_change) ]
+      - [ex:freq_of_st, $(freq_of_st) ]
+      - [ex:Bitrate_switch_count, $(Bitrate_switch_count) ]
+      - [ex:freq_of_sw, $(freq_of_sw) ]
+      - [ex:Rebuffer_percentage, $(Rebuffer_percentage) ]
+      - [ex:Average_Bitrate_Swithcing_magnitude, $(Average_Bitrate_Swithcing_magnitude) ]
+      - [ex:Average_relative_Bitrate_Swithcing_magnitude, $(Average_relative_Bitrate_Swithcing_magnitude) ]
+      - [ex:Ratio_on_highest_sequense_quality_layer, $(Ratio_on_highest_sequense_quality_layer) ]
+      - [ex:Ratio_on_minimum_sequense_quality_layer, $(Ratio_on_minimum_sequense_quality_layer) ]
+      - [ex:Ratio_on_sequense_quality_layer_max_2, $(Ratio_on_sequense_quality_layer_max_2) ]
+      - [ex:width_height, $(width_height) ]
+      - [ex:SI, $(SI) ]
+      - [ex:TI, $(TI) ]
+      - [ex:content, $(content) ]
+      - [ex:motion, $(motion) ]
+      - [ex:Constant_bitrate, $(Constant_bitrate) ]
+      - [ex:MOS, $(MOS) ]

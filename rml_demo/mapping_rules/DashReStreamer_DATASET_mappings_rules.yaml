@@ -1,0 +1,28 @@
+prefixes:
+ diim: "http://diim.org/"
+
+mappings:
+  DashReStreamer_DATASET:
+    sources:
+      - ['source_2.csv~csv', '$.DashReStreamer_DATASET[*]']
+    s: http://diim.org/$(hash)
+ 
+    po:
+      - [a, ex:Measurement]
+      - [diim:Chunk_Index, $(Chunk_Index)]
+      - [diim:Arr_Time, $(Arr_Time)]
+      - [diim:Del_Time, $(Del_Time)]
+      - [diim:Stall_Dur, $(Stall_Dur) ]
+      - [diim:Rep_Level, $(Rep_Level)]
+      - [diim:Del_Rate, $(Del_Rate)]
+      - [diim:Act_Rate, $(Act_Rate)]
+      - [diim:Byte_Size, $(Byte_Size)]
+      - [diim:Buffer_Level, $(Buffer_Level)]
+      - [diim:Codec, $(Codec)]
+      - [diim:Height, $(Height)]
+      - [diim:Width, $(Width)]
+      - [diim:fps, $(fps)]
+      - [diim:ChunkDur, $(ChunkDur)]
+      - [diim:ChunkStartTime, $(ChunkStartTime)]
+      - [diim:AvgThr, $(AvgThr)]
+      - [diim:PlayBackPos, $(PlayBackPos)]

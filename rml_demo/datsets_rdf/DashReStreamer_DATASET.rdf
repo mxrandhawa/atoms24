@@ -1,0 +1,117 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix diim: <http://diim.org/> .
+
+diim:0 rdf:type diim:Measurement ;
+	diim:Chunk_Index "1" ;
+	diim:Arr_Time "20038" ;
+	diim:Del_Time "97" ;
+	diim:Stall_Dur "0" ;
+	diim:Rep_Level "237" ;
+	diim:Del_Rate "6794" ;
+	diim:Act_Rate "165" ;
+	diim:Byte_Size "82382" ;
+	diim:Buffer_Level "4000" ;
+	diim:Codec " h264" ;
+	diim:Height "180" ;
+	diim:Width "320" ;
+	diim:fps "24.0" ;
+	diim:ChunkDur "4000" ;
+	diim:ChunkStartTime "0" ;
+	diim:AvgThr "7771" ;
+	diim:PlayBackPos "0" .
+
+diim:1 rdf:type diim:Measurement ;
+	diim:Chunk_Index "2" ;
+	diim:Arr_Time "20532" ;
+	diim:Del_Time "343" ;
+	diim:Stall_Dur "0" ;
+	diim:Rep_Level "377" ;
+	diim:Del_Rate "8357" ;
+	diim:Act_Rate "717" ;
+	diim:Byte_Size "358320" ;
+	diim:Buffer_Level "7458" ;
+	diim:Codec " h264" ;
+	diim:Height "216" ;
+	diim:Width "384" ;
+	diim:fps "24.0" ;
+	diim:ChunkDur "4000" ;
+	diim:ChunkStartTime "4000" ;
+	diim:AvgThr "7849" ;
+	diim:PlayBackPos "0" .
+
+diim:2 rdf:type diim:Measurement ;
+	diim:Chunk_Index "3" ;
+	diim:Arr_Time "20972" ;
+	diim:Del_Time "302" ;
+	diim:Stall_Dur "0" ;
+	diim:Rep_Level "568" ;
+	diim:Del_Rate "7924" ;
+	diim:Act_Rate "598" ;
+	diim:Byte_Size "299158" ;
+	diim:Buffer_Level "11564" ;
+	diim:Codec " h264" ;
+	diim:Height "288" ;
+	diim:Width "512" ;
+	diim:fps "24.0" ;
+	diim:ChunkDur "4000" ;
+	diim:ChunkStartTime "8000" ;
+	diim:AvgThr "9346" ;
+	diim:PlayBackPos "436" .
+
+diim:3 rdf:type diim:Measurement ;
+	diim:Chunk_Index "4" ;
+	diim:Arr_Time "21598" ;
+	diim:Del_Time "326" ;
+	diim:Stall_Dur "0" ;
+	diim:Rep_Level "1072" ;
+	diim:Del_Rate "11106" ;
+	diim:Act_Rate "905" ;
+	diim:Byte_Size "452580" ;
+	diim:Buffer_Level "14693" ;
+	diim:Codec " h264" ;
+	diim:Height "360" ;
+	diim:Width "640" ;
+	diim:fps "24.0" ;
+	diim:ChunkDur "4000" ;
+	diim:ChunkStartTime "12000" ;
+	diim:AvgThr "8865" ;
+	diim:PlayBackPos "1056" .
+
+diim:4 rdf:type diim:Measurement ;
+	diim:Chunk_Index "5" ;
+	diim:Arr_Time "22709" ;
+	diim:Del_Time "963" ;
+	diim:Stall_Dur "0" ;
+	diim:Rep_Level "2406" ;
+	diim:Del_Rate "8236" ;
+	diim:Act_Rate "1983" ;
+	diim:Byte_Size "991500" ;
+	diim:Buffer_Level "17744" ;
+	diim:Codec " h264" ;
+	diim:Height "720" ;
+	diim:Width "1280" ;
+	diim:fps "24.0" ;
+	diim:ChunkDur "4000" ;
+	diim:ChunkStartTime "16000" ;
+	diim:AvgThr "7477" ;
+	diim:PlayBackPos "2173" .
+
+diim:5 rdf:type diim:Measurement ;
+	diim:Chunk_Index "6" ;
+	diim:Arr_Time "24239" ;
+	diim:Del_Time "1468" ;
+	diim:Stall_Dur "0" ;
+	diim:Rep_Level "2406" ;
+	diim:Del_Rate "5558" ;
+	diim:Act_Rate "2040" ;
+	diim:Byte_Size "1019898" ;
+	diim:Buffer_Level "20261" ;
+	diim:Codec " h264" ;
+	diim:Height "720" ;
+	diim:Width "1280" ;
+	diim:fps "24.0" ;
+	diim:ChunkDur "4000" ;
+	diim:ChunkStartTime "20000" ;
+	diim:AvgThr "7577" ;
+	diim:PlayBackPos "3697" .
+
